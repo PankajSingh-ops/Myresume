@@ -1,0 +1,8 @@
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: read ECONNRESET","timestamp":"2026-03-15 19:35:26"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: Connection timeout","timestamp":"2026-03-15 19:40:37"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: Connection timeout","timestamp":"2026-03-15 20:03:51"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: connect ENETUNREACH 2606:4700:90:0:f225:a1af:129b:4ba1:465","timestamp":"2026-03-15 20:05:44"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: connect ENETUNREACH 2606:4700:90:0:f225:a1af:129b:4ba1:465","timestamp":"2026-03-15 20:07:45"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: connect ENETUNREACH 2606:4700:90:0:f225:a1af:129b:4ba1:465","timestamp":"2026-03-15 20:09:54"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: Connection timeout","timestamp":"2026-03-15 20:13:35"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: Connection timeout","timestamp":"2026-03-15 20:15:29"}

@@ -1,0 +1,26 @@
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-14 12:06:19"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-14 12:36:56"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-14 12:43:36","userId":"ae04b646-ca42-4c39-855f-61e23d1ef89b"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-14 13:12:32","userId":"ae04b646-ca42-4c39-855f-61e23d1ef89b"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-14 13:19:21","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-14 14:21:50"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-14 14:27:43"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-14 22:06:14"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-14 22:49:35"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-14 23:07:38"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-14 23:10:19","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-14 23:17:26","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","message":"Starting file parsing for type: application/pdf","timestamp":"2026-03-14 23:17:34"}
+{"level":"info","message":"Successfully parsed file and extracted 2139 characters","timestamp":"2026-03-14 23:17:35"}
+{"level":"debug","message":"Deleted temp file: C:\\Users\\PANKAJ~1\\AppData\\Local\\Temp\\ats_upload_1773510454649.pdf","timestamp":"2026-03-14 23:17:35"}
+{"filename":"resume-3581271f-3f44-4254-849b-b0d48716d16e (1).pdf","level":"info","message":"Starting ATS resume scan","timestamp":"2026-03-14 23:17:35","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-14 23:27:10"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-14 23:40:07","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-14 23:48:50","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-14 23:53:51","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","message":"Starting file parsing for type: application/pdf","timestamp":"2026-03-14 23:54:58"}
+{"level":"info","message":"Successfully parsed file and extracted 2866 characters","timestamp":"2026-03-14 23:55:00"}
+{"level":"debug","message":"Deleted temp file: C:\\Users\\PANKAJ~1\\AppData\\Local\\Temp\\ats_upload_1773512698273.pdf","timestamp":"2026-03-14 23:55:00"}
+{"filename":"Pankaj singh jethi (1).pdf","level":"info","message":"Starting ATS resume scan","timestamp":"2026-03-14 23:55:00","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"actionName":"ats_resume_scan","attempt":1,"duration":"7915ms","level":"info","message":"OpenAI call completed","timestamp":"2026-03-14 23:55:08","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"filename":"Pankaj singh jethi (1).pdf","level":"info","message":"ATS resume scan completed","overall_score":82,"scanId":"a0cc3c6a-b19d-42d7-88d6-d96cc51d5f0d","timestamp":"2026-03-14 23:55:08","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}

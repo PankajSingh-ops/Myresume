@@ -1,0 +1,61 @@
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 00:06:55"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 00:09:43","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 00:23:03","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 12:59:12"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 12:59:56","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","message":"Fetching ATS scan by ID","scanId":"a0cc3c6a-b19d-42d7-88d6-d96cc51d5f0d","timestamp":"2026-03-15 13:00:01","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 15:33:51","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 15:36:43","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 15:45:36","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 15:59:20"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 16:02:23"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 16:18:26"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 16:25:41","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 16:38:30"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 16:42:34"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 16:45:33"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 16:52:05","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 17:09:23","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 19:19:43"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 19:21:01"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 19:21:44","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 19:27:28"}
+{"level":"info","message":"Email sent successfully: [Email Verification] to pjethi292@gmail.com","timestamp":"2026-03-15 19:28:24"}
+{"level":"info","message":"Email sent successfully: [Welcome Notification] to pjethi292@gmail.com","timestamp":"2026-03-15 19:29:06"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 19:32:02"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 19:32:51"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: read ECONNRESET","timestamp":"2026-03-15 19:35:26"}
+{"level":"info","message":"Email sent successfully: [Email Verification] to education.tbps@gmail.com","timestamp":"2026-03-15 19:36:46"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 19:40:22"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: Connection timeout","timestamp":"2026-03-15 19:40:37"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: Connection timeout","timestamp":"2026-03-15 20:03:51"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 20:05:26"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: connect ENETUNREACH 2606:4700:90:0:f225:a1af:129b:4ba1:465","timestamp":"2026-03-15 20:05:44"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 20:07:33"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: connect ENETUNREACH 2606:4700:90:0:f225:a1af:129b:4ba1:465","timestamp":"2026-03-15 20:07:45"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 20:09:38"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: connect ENETUNREACH 2606:4700:90:0:f225:a1af:129b:4ba1:465","timestamp":"2026-03-15 20:09:54"}
+{"level":"info","message":"Resolved SMTP host smtp.hostinger.com to IPv4: 172.65.255.143","timestamp":"2026-03-15 20:12:33"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 20:12:33"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: Connection timeout","timestamp":"2026-03-15 20:13:35"}
+{"level":"info","message":"Resolved SMTP host smtp.hostinger.com to IPv4: 172.65.255.143","timestamp":"2026-03-15 20:15:19"}
+{"level":"info","message":"🕰️ Scheduled node-cron maintenance jobs initialized.","timestamp":"2026-03-15 20:15:19"}
+{"level":"error","message":"Email delivery failed: [Email Verification] to education.tbps@gmail.com | Error: Connection timeout","timestamp":"2026-03-15 20:15:29"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 20:16:30","userId":"9885b2ac-dac5-43f4-887f-88b927989a77"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 20:20:23","userId":"9885b2ac-dac5-43f4-887f-88b927989a77"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 20:37:30","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","message":"Fetching ATS scan by ID","scanId":"a0cc3c6a-b19d-42d7-88d6-d96cc51d5f0d","timestamp":"2026-03-15 20:37:34","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 20:43:16","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 20:44:25","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":1,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 20:47:21","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":1,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 20:48:37","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":1,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 20:49:28","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":1,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 20:57:41","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 21:00:59","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":1,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 21:37:13","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":1,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 22:34:21","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 22:35:14","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 22:43:45","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":1,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 22:43:48","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":3,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 22:45:56","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
+{"level":"info","limit":1,"message":"Fetching user ATS scans","page":1,"timestamp":"2026-03-15 22:57:03","userId":"7fe2f65a-c718-4246-abd3-f9b486730e36"}
