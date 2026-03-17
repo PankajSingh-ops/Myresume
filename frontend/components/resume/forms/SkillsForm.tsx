@@ -127,9 +127,9 @@ function SortableSkillItem({
                                 {itemErrors?.category && <p className="text-xs text-destructive">{itemErrors.category.message}</p>}
                             </div>
 
-                            <div className="space-y-1.5">
+                            <div className="space-y-1.5 rounded-lg border border-dashed border-muted-foreground/20 bg-muted/30 p-4">
                                 <div className="flex items-center justify-between mb-2">
-                                    <Label>Skills (Comma separated)</Label>
+                                    <Label className="text-sm font-semibold">Skills (Comma separated)</Label>
                                     <AIImproveButton
                                         label="✨ Suggest Skills (2 credits)"
                                         cost={2}

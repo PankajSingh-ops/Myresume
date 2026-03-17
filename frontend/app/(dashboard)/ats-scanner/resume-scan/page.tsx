@@ -101,7 +101,7 @@ export default function ResumeScanPage() {
     return (
         <div className="flex-1 flex flex-col h-[calc(100vh-4rem)]">
             {/* Header */}
-            <div className="flex items-center justify-between px-8 py-4 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-10">
+            <div className="flex items-center justify-between px-4 md:px-8 py-4 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-10">
                 <div className="flex items-center gap-4">
                     <Button variant="ghost" size="icon" onClick={handleBack} className="-ml-2">
                         <ArrowLeft className="h-5 w-5" />
@@ -114,7 +114,7 @@ export default function ResumeScanPage() {
                     </div>
                 </div>
                 {scanResult && (
-                    <Button variant="outline" size="sm" onClick={() => downloadResumeScanReport(scanResult)}>
+                    <Button variant="outline" size="sm" className="hidden sm:flex" onClick={() => downloadResumeScanReport(scanResult)}>
                         <Download className="mr-2 h-4 w-4" />
                         Download Report
                     </Button>
@@ -123,7 +123,7 @@ export default function ResumeScanPage() {
 
             <div className="flex-1 overflow-hidden grid md:grid-cols-[400px_1fr] lg:grid-cols-[450px_1fr]">
                 {/* Left Panel: Upload & Controls */}
-                <div className="h-full border-r bg-muted/10 overflow-y-auto p-6 space-y-6">
+                <div className="h-full md:border-r bg-muted/10 overflow-y-auto p-4 md:p-6 space-y-6">
                     <div className="space-y-4">
                         <div>
                             <h3 className="text-lg font-semibold">Upload Resume</h3>
@@ -177,10 +177,10 @@ export default function ResumeScanPage() {
                     ) : isScanning || isFetchingReport ? (
                         <ATSScanSkeleton variant="resume" />
                     ) : scanResult ? (
-                        <div className="p-8 max-w-4xl mx-auto space-y-12 animate-in fade-in slide-in-from-bottom-4 duration-500">
+                        <div className="p-4 md:p-8 max-w-4xl mx-auto space-y-8 md:space-y-12 animate-in fade-in slide-in-from-bottom-4 duration-500">
 
                             {/* Top Section: Score & Summary */}
-                            <div className="flex flex-col md:flex-row items-center gap-8 bg-card border rounded-2xl p-8 shadow-sm">
+                            <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8 bg-card border rounded-xl md:rounded-2xl p-4 md:p-8 shadow-sm">
                                 <div className="shrink-0">
                                     <ScoreGauge
                                         score={scanResult.overall_score}

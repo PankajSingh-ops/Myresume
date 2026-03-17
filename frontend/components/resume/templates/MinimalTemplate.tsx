@@ -76,6 +76,40 @@ export function MinimalTemplate({ resume }: { resume: Resume }) {
                     </section>
                 )}
 
+                {/* Projects */}
+                {projects && projects.length > 0 && (
+                    <section>
+                        <h2 className="text-[0.75em] font-bold uppercase tracking-[0.2em] text-neutral-400 mb-6 border-t border-neutral-100 pt-12">Projects</h2>
+                        <div className="space-y-8">
+                            {projects.map(proj => (
+                                <div key={proj.id} className="grid grid-cols-12 gap-8">
+                                    <div className="col-span-3 text-[0.85em] text-neutral-500 font-medium break-all">
+                                        {proj.url && (
+                                            <a href={proj.url} className="hover:text-blue-600 hover:underline">
+                                                {proj.url.replace(/^https?:\/\//, '')}
+                                            </a>
+                                        )}
+                                    </div>
+                                    <div className="col-span-9">
+                                        <h3 className="font-medium text-[1.1em] text-neutral-900">{proj.name}</h3>
+                                        {proj.technologies && proj.technologies.length > 0 && (
+                                            <div className="text-neutral-500 mb-3 text-[0.9em]">Stack: {proj.technologies.join(', ')}</div>
+                                        )}
+                                        {proj.description && (
+                                            <div className="mb-3 text-[0.95em] text-neutral-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: proj.description }} />
+                                        )}
+                                        {proj.bullets && proj.bullets.length > 0 && (
+                                            <ul className="list-disc pl-4 space-y-1.5 text-[0.95em] text-neutral-600">
+                                                {proj.bullets.map((b, i) => <li key={i}>{b}</li>)}
+                                            </ul>
+                                        )}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+                )}
+
                 {/* Education */}
                 {education && education.length > 0 && (
                     <section>

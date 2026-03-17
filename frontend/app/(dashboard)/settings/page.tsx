@@ -68,7 +68,7 @@ export default function SettingsPage() {
                             <span className="text-5xl font-bold tracking-tight">{balance ?? '...'}</span>
                             <span className="text-muted-foreground ml-2 font-medium">Credits Available</span>
                         </div>
-                        <div className="grid grid-cols-2 gap-4 text-sm max-w-sm w-full">
+                        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm max-w-lg w-full">
                             <div className="flex items-center justify-between bg-background px-3 py-2 rounded-md border">
                                 <span className="text-muted-foreground">PDF Export</span>
                                 <span className="font-semibold">{CREDIT_COSTS.PDF_EXPORT} cr</span>
@@ -80,6 +80,14 @@ export default function SettingsPage() {
                             <div className="flex items-center justify-between bg-background px-3 py-2 rounded-md border">
                                 <span className="text-muted-foreground">Create Resume</span>
                                 <span className="font-semibold">{CREDIT_COSTS.RESUME_CREATE} cr</span>
+                            </div>
+                            <div className="flex items-center justify-between bg-background px-3 py-2 rounded-md border">
+                                <span className="text-muted-foreground">Cover Letter</span>
+                                <span className="font-semibold">{CREDIT_COSTS.COVER_LETTER_CREATE} cr</span>
+                            </div>
+                            <div className="flex items-center justify-between bg-background px-3 py-2 rounded-md border">
+                                <span className="text-muted-foreground">ATS Scan</span>
+                                <span className="font-semibold">{CREDIT_COSTS.ATS_SCAN} cr</span>
                             </div>
                             <div className="flex items-center justify-between bg-background px-3 py-2 rounded-md border">
                                 <span className="text-muted-foreground">Full Rewrite</span>

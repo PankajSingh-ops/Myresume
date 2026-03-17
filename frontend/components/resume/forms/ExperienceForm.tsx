@@ -133,7 +133,7 @@ function SortableExperienceItem({
                         </Button>
                     </div>
                     <AccordionContent className="px-4 pb-4 pt-2">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-h-[50vh] overflow-y-auto pr-2">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div className="space-y-1.5">
                                 <Label>Company</Label>
                                 <Input placeholder="Acme Corp" {...register(`experiences.${index}.company`)} />
@@ -165,9 +165,9 @@ function SortableExperienceItem({
                                 <Label htmlFor={`current-${id}`} className="font-normal">I currently work here</Label>
                             </div>
 
-                            <div className="space-y-1.5 md:col-span-2">
+                            <div className="space-y-1.5 md:col-span-2 mt-2 rounded-lg border border-dashed border-muted-foreground/20 bg-muted/30 p-4">
                                 <div className="flex items-center justify-between mb-2">
-                                    <Label>Description</Label>
+                                    <Label className="text-sm font-semibold">Description</Label>
                                 </div>
                                 <RichTextEditor
                                     value={currentDescription}
@@ -175,10 +175,10 @@ function SortableExperienceItem({
                                 />
                             </div>
 
-                            <div className="space-y-2 md:col-span-2 mt-2">
-                                <div className="flex items-center justify-between mb-2">
-                                    <Label>Bullet Points</Label>
-                                    <div className="flex gap-2">
+                            <div className="space-y-3 md:col-span-2 mt-2 rounded-lg border border-dashed border-muted-foreground/20 bg-muted/30 p-4">
+                                <div className="flex items-center justify-between">
+                                    <Label className="text-sm font-semibold">Bullet Points</Label>
+                                    <div className="flex gap-2 flex-wrap justify-end">
                                         <AIImproveButton
                                             label="✨ Generate Bullets (2 credits)"
                                             cost={2}
@@ -194,16 +194,16 @@ function SortableExperienceItem({
                                 </div>
 
                                 {currentBullets.map((bullet: string, bIndex: number) => (
-                                    <div key={bIndex} className="flex gap-2 items-start">
-                                        <div className="pt-2.5 pb-2">
-                                            <div className="h-1.5 w-1.5 rounded-full bg-foreground/40 mt-0.5" />
+                                    <div key={bIndex} className="flex gap-2 items-start group">
+                                        <div className="shrink-0 w-6 h-6 rounded-full bg-primary/10 text-primary text-xs font-bold flex items-center justify-center mt-1.5">
+                                            {bIndex + 1}
                                         </div>
                                         <Textarea
-                                            className="min-h-[40px] h-[40px] resize-none py-2"
-                                            placeholder="Achieved X by implementing Y..."
+                                            className="min-h-[52px] h-[52px] resize-none py-2.5 bg-background"
+                                            placeholder="Achieved X by implementing Y, resulting in Z..."
                                             {...register(`experiences.${index}.bullets.${bIndex}`)}
                                         />
-                                        <Button variant="ghost" size="icon" className="shrink-0 text-muted-foreground hover:text-destructive" onClick={() => removeBullet(bIndex)}>
+                                        <Button variant="ghost" size="icon" className="shrink-0 text-muted-foreground hover:text-destructive opacity-50 group-hover:opacity-100 transition-opacity" onClick={() => removeBullet(bIndex)}>
                                             <Trash2 className="h-4 w-4" />
                                         </Button>
                                     </div>

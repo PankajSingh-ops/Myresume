@@ -15,7 +15,9 @@ import { Button } from '@/components/ui/button';
 
 const costReference = [
     { label: 'New Resume', cost: CREDIT_COSTS.RESUME_CREATE },
+    { label: 'Cover Letter', cost: CREDIT_COSTS.COVER_LETTER_CREATE },
     { label: 'PDF Export', cost: CREDIT_COSTS.PDF_EXPORT },
+    { label: 'ATS Scan', cost: CREDIT_COSTS.ATS_SCAN },
     { label: 'AI Suggestion', cost: CREDIT_COSTS.AI_SUGGESTION },
     { label: 'AI Full Rewrite', cost: CREDIT_COSTS.AI_FULL_REWRITE },
 ];

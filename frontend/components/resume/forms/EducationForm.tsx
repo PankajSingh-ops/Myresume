@@ -95,7 +95,7 @@ function SortableEducationItem({
                         </Button>
                     </div>
                     <AccordionContent className="px-4 pb-4 pt-2">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-h-[50vh] overflow-y-auto pr-2">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div className="space-y-1.5 md:col-span-2">
                                 <Label>Institution / School</Label>
                                 <Input placeholder="University of React" {...register(`educations.${index}.institution`)} />
@@ -125,9 +125,9 @@ function SortableEducationItem({
                                 <Input placeholder="3.8 / 4.0" {...register(`educations.${index}.gpa`)} />
                             </div>
 
-                            <div className="space-y-1.5 md:col-span-2">
+                            <div className="space-y-1.5 md:col-span-2 mt-2 rounded-lg border border-dashed border-muted-foreground/20 bg-muted/30 p-4">
                                 <div className="flex items-center justify-between mb-2">
-                                    <Label>Description / Comments</Label>
+                                    <Label className="text-sm font-semibold">Description / Comments</Label>
                                 </div>
                                 <RichTextEditor
                                     value={currentDescription}

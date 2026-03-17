@@ -101,6 +101,37 @@ export function CreativeTemplate({ resume }: CreativeTemplateProps) {
                                 </div>
                             </section>
                         )}
+                        {projects && projects.length > 0 && (
+                            <section>
+                                <h3 className="text-sm font-bold tracking-widest uppercase mb-4 text-slate-400">Projects</h3>
+                                <div className="space-y-5">
+                                    {projects.map((proj, i) => (
+                                        <div key={proj.id} className="relative pl-5 border-l-2 border-slate-200">
+                                            <div className="absolute w-3 h-3 rounded-full -left-[7px] top-1 bg-slate-300"></div>
+                                            <h4 className="font-bold text-[1.1em] text-slate-800 mb-1">{proj.name}</h4>
+                                            {proj.url && (
+                                                <a href={proj.url} className="text-[0.8em] font-bold text-slate-400 hover:text-blue-600 truncate block max-w-full mb-1">{proj.url.replace(/^https?:\/\//, '')}</a>
+                                            )}
+                                            {proj.technologies && proj.technologies.length > 0 && (
+                                                <div className="font-semibold text-[0.85em] mb-2 text-slate-500">Tech: {proj.technologies.join(', ')}</div>
+                                            )}
+                                            {proj.description && (
+                                                <div className="mb-2 text-[0.9em] text-slate-700" dangerouslySetInnerHTML={{ __html: proj.description }} />
+                                            )}
+                                            {proj.bullets && proj.bullets.length > 0 && (
+                                                <ul className="list-none space-y-1 text-[0.9em] text-slate-600">
+                                                    {proj.bullets.map((b, idx) => (
+                                                        <li key={idx} className="relative pl-3 before:content-['•'] before:absolute before:left-0 before:text-slate-300">
+                                                            {b}
+                                                        </li>
+                                                    ))}
+                                                </ul>
+                                            )}
+                                        </div>
+                                    ))}
+                                </div>
+                            </section>
+                        )}
                     </div>
 
                     {/* Sidebar col-4 */}

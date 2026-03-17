@@ -38,8 +38,10 @@ const POSITIVE_TYPES = new Set(['signup_bonus', 'refund', 'admin_grant', 'referr
 
 const costBreakdown = [
     { action: 'Create Resume', cost: CREDIT_COSTS.RESUME_CREATE },
+    { action: 'Create Cover Letter', cost: CREDIT_COSTS.COVER_LETTER_CREATE },
     { action: 'Duplicate Resume', cost: CREDIT_COSTS.RESUME_CREATE },
     { action: 'Export PDF', cost: CREDIT_COSTS.PDF_EXPORT },
+    { action: 'ATS Scan', cost: CREDIT_COSTS.ATS_SCAN },
     { action: 'AI Improve Bullet', cost: CREDIT_COSTS.AI_SUGGESTION },
     { action: 'AI Full Rewrite', cost: CREDIT_COSTS.AI_FULL_REWRITE },
 ];

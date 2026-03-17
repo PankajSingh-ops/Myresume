@@ -113,14 +113,14 @@ function TemplateCard({
                         <div className={`w-4 h-4 rounded-full bg-gradient-to-br ${template.gradient}`} />
                         <span className="text-xs font-medium text-muted-foreground">Color Theme</span>
                     </div>
-                    <Button variant="ghost" size="sm" className="opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer" onClick={() => onUse(template.id)}>
+                    <Button variant="ghost" size="sm" className="md:opacity-0 md:group-hover:opacity-100 transition-opacity cursor-pointer" onClick={() => onUse(template.id)}>
                         Select <ArrowLeft className="ml-1 h-3 w-3 rotate-180" />
                     </Button>
                 </div>
             </div>
 
             {/* ── Hover overlay: full-card expanded preview ────────── */}
-            <div className="absolute inset-0 z-20 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity duration-300 rounded-xl overflow-hidden bg-white ring-1 ring-black/10">
+            <div className="absolute inset-0 z-20 hidden md:block opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity duration-300 rounded-xl overflow-hidden bg-white ring-1 ring-black/10">
                 <div className="w-full h-full overflow-hidden relative">
                     <div
                         className="absolute top-0 left-0 origin-top-left"

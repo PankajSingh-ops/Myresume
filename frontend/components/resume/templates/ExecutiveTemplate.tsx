@@ -90,6 +90,41 @@ export function ExecutiveTemplate({ resume }: ExecutiveTemplateProps) {
                     </div>
                 )}
 
+                {/* Projects */}
+                {projects && projects.length > 0 && (
+                    <div className="mb-6">
+                        <div className="flex items-center gap-4 mb-4">
+                            <h2 className="text-xl font-bold uppercase tracking-widest text-gray-900 shrink-0 font-sans">Key Projects</h2>
+                            <div className="h-px bg-gray-300 flex-1"></div>
+                        </div>
+                        <div className="space-y-6">
+                            {projects.map(proj => (
+                                <div key={proj.id}>
+                                    <div className="flex justify-between items-baseline mb-1">
+                                        <h3 className="font-bold text-[1.15em] text-gray-900">{proj.name}</h3>
+                                        {proj.url && (
+                                            <a href={proj.url} className="font-sans text-[0.85em] text-blue-600 font-semibold truncate max-w-[200px] hover:underline">
+                                                {proj.url.replace(/^https?:\/\//, '')}
+                                            </a>
+                                        )}
+                                    </div>
+                                    {proj.technologies && proj.technologies.length > 0 && (
+                                        <div className="text-[0.9em] font-medium text-gray-600 mb-2 italic">Stack: {proj.technologies.join(', ')}</div>
+                                    )}
+                                    {proj.description && (
+                                        <div className="mb-2 text-[0.95em] text-gray-700" dangerouslySetInnerHTML={{ __html: proj.description }} />
+                                    )}
+                                    {proj.bullets && proj.bullets.length > 0 && (
+                                        <ul className="list-disc pl-5 space-y-1.5 text-[0.95em] text-gray-700">
+                                            {proj.bullets.map((b, i) => <li key={i}>{b}</li>)}
+                                        </ul>
+                                    )}
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                )}
+
                 {/* Education & Skills Split */}
                 <div className="grid grid-cols-2 gap-8">
                     {/* Education */}

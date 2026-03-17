@@ -148,7 +148,7 @@ export default function JobMatchPage() {
     return (
         <div className="flex-1 flex flex-col h-[calc(100vh-4rem)]">
             {/* Header */}
-            <div className="flex items-center justify-between px-8 py-4 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-10">
+            <div className="flex items-center justify-between px-4 md:px-8 py-4 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-10">
                 <div className="flex items-center gap-4">
                     <Button variant="ghost" size="icon" onClick={handleBack} className="-ml-2">
                         <ArrowLeft className="h-5 w-5" />
@@ -161,7 +161,7 @@ export default function JobMatchPage() {
                     </div>
                 </div>
                 {matchResult && (
-                    <Button variant="outline" size="sm" onClick={() => downloadJobMatchReport(matchResult)}>
+                    <Button variant="outline" size="sm" className="hidden sm:flex" onClick={() => downloadJobMatchReport(matchResult)}>
                         <Download className="mr-2 h-4 w-4" />
                         Download Report
                     </Button>
@@ -170,7 +170,7 @@ export default function JobMatchPage() {
 
             <div className="flex-1 overflow-hidden grid md:grid-cols-[400px_1fr] lg:grid-cols-[450px_1fr]">
                 {/* Left Panel: Inputs & Controls */}
-                <div className="h-full border-r bg-muted/10 overflow-y-auto p-6 flex flex-col">
+                <div className="h-full md:border-r bg-muted/10 overflow-y-auto p-4 md:p-6 flex flex-col">
                     <div className="space-y-6 flex-1">
                         <div className="space-y-4">
                             <div>
@@ -246,10 +246,10 @@ export default function JobMatchPage() {
                     ) : isScanning || isFetchingReport ? (
                         <ATSScanSkeleton variant="job-match" />
                     ) : matchResult ? (
-                        <div className="p-8 max-w-4xl mx-auto space-y-12 animate-in fade-in slide-in-from-bottom-4 duration-500">
+                        <div className="p-4 md:p-8 max-w-4xl mx-auto space-y-8 md:space-y-12 animate-in fade-in slide-in-from-bottom-4 duration-500">
 
                             {/* Top Section: Score & Badges */}
-                            <div className="flex flex-col md:flex-row items-center gap-8 bg-card border rounded-2xl p-8 shadow-sm">
+                            <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8 bg-card border rounded-xl md:rounded-2xl p-4 md:p-8 shadow-sm">
                                 <div className="shrink-0">
                                     <ScoreGauge
                                         score={matchResult.match_score}
@@ -534,7 +534,7 @@ export default function JobMatchPage() {
                             </div>
 
                             {/* Overall Recommendation Callout */}
-                            <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-12 mb-12 flex flex-col items-center text-center space-y-4 shadow-sm">
+                            <div className="bg-primary/5 border border-primary/20 rounded-xl p-4 md:p-6 mt-8 md:mt-12 mb-8 md:mb-12 flex flex-col items-center text-center space-y-4 shadow-sm">
                                 <h3 className="font-semibold text-lg text-primary">Final Verdict</h3>
                                 <p className="max-w-2xl text-foreground/90 font-medium text-balance leading-relaxed">
                                     "{matchResult.overall_recommendation}"

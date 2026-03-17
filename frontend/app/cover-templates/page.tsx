@@ -105,11 +105,18 @@ function TemplateCard({ template }: { template: (typeof COVER_LETTER_TEMPLATES)[
                         <div className={`w-4 h-4 rounded-full bg-linear-to-br ${template.gradient}`} />
                         <span className="text-xs font-medium text-muted-foreground">Color Theme</span>
                     </div>
+                    <Link
+                        href="/register"
+                        className="md:hidden inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
+                    >
+                        <PackagePlus className="h-3.5 w-3.5" />
+                        Use This
+                    </Link>
                 </div>
             </div>
 
             {/* ── Hover overlay: full-card expanded preview ────────── */}
-            <div className="absolute inset-0 z-20 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity duration-300 rounded-xl overflow-hidden bg-white ring-1 ring-black/10">
+            <div className="absolute inset-0 z-20 hidden md:block opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity duration-300 rounded-xl overflow-hidden bg-white ring-1 ring-black/10">
                 <div className="w-full h-full overflow-hidden relative">
                     <div
                         className="absolute top-0 left-0 origin-top-left"
