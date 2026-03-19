@@ -29,7 +29,7 @@ export default function ContactPage() {
                   <Mail className="h-6 w-6 text-primary mt-1" />
                   <div>
                     <h3 className="font-medium text-foreground">Email</h3>
-                    <p>support@resumebuilder.example.com</p>
+                    <p>support@techyuni.com</p>
                     <p className="text-sm mt-1">We aim to reply within 24 hours.</p>
                   </div>
                 </div>
@@ -38,19 +38,11 @@ export default function ContactPage() {
                   <MapPin className="h-6 w-6 text-primary mt-1" />
                   <div>
                     <h3 className="font-medium text-foreground">Office</h3>
-                    <p>123 Innovation Drive</p>
-                    <p>San Francisco, CA 94105</p>
+                    <p>HQ - Doon University Road, Dehradun, Uttarakhand, India. – 248001</p>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4">
-                  <Phone className="h-6 w-6 text-primary mt-1" />
-                  <div>
-                    <h3 className="font-medium text-foreground">Phone</h3>
-                    <p>+1 (555) 123-4567</p>
-                    <p className="text-sm mt-1">Mon-Fri from 8am to 5pm PST.</p>
-                  </div>
-                </div>
+
               </div>
             </div>
 

@@ -335,7 +335,7 @@ export default function PricingPage() {
                                 We'd love to help you find the perfect plan.
                             </p>
                             <Button variant="outline" className="gap-2" asChild>
-                                <a href="mailto:support@myresume.com">
+                                <a href="mailto:support@techyuni.com">
                                     Contact Sales Team
                                     <ArrowRight className="h-4 w-4" />
                                 </a>
